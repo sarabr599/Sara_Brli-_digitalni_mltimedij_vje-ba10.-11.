@@ -1,0 +1,90 @@
+@charset "utf-8"
+/* CSS Document */
+
+/*paragrafi, podnaslovi, citati*/
+h1{
+  font-size: 20px;
+  line-height: 14px;
+  width: 230px;
+}
+h2, h3, h4, h5{
+  color:DarkSlateGray;
+  font-family: "Tahoma", sans-serif;
+  font-size: 20px;
+  line-height: 14px;
+  width: 230px;
+  background-color: AliceBlue;
+  padding: 21px;
+  border: 4px solid SlateGray;
+}
+a{
+        color:DarkSlateGray;
+        text-decoration:none;
+        text-decoration:underline;
+}
+
+p{
+        color:DarkSlateGray;
+        font-family:  "Georgia", serif;
+        font-size: 18px;
+        line-height: 21px;
+        width: 650px;
+        background-color: AliceBlue;
+        padding: 40px;
+}
+
+blockquote {
+         color:DarkSlateGray;
+         font-family: "Georgia", serif;
+         font-size: 15px;
+         background-color: rgba(255, 255, 255, 0.3);
+         line-height: 20px;
+         padding: 10px;
+         width: 200px;
+         width: 44%;
+}
+div{
+      background-color: rgba(255, 255, 255, 0.3);
+      line-height: 21px;
+      padding: 30px;
+      width: 500px;
+      width: 44%;
+    }
+
+/*pozadine, slike, videi*/
+.pozadina1{
+        background-image: url("pozadine/pozadina1.jpg")
+  }
+.pozadina2{
+        background-image: url("pozadine/pozadina2.jpg")
+  }
+
+  img{
+        height:220px
+      }
+
+  video {
+        height:300px;
+        width: 600px;
+        padding: 21px;
+        }
+
+/*za horizontalnu navigacijsku listu */
+     nav {font-family: "Tahoma", sans-serif;
+     	}
+     	ul {padding:21px;
+     			width: 500px;
+     			}
+     	li {	display:inline;
+     			background-color:AliceBlue;
+     			padding:21px;
+     			border: 4px solid SlateGray;
+     		}
+     	li:active {background-color:IndianRed;}
+
+     	li a {	color:DarkSlateGray;
+     			font-family: "Tahoma", sans-serif;
+     			text-transform: uppercase;
+     			}
+     	li a:link {text-decoration:none;}
+     	li a:hover {text-decoration:underline;}
